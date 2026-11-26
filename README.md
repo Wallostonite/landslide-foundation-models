@@ -1,8 +1,38 @@
-# Landslide Recurrence Predictor
+# Landslide Reactivation: Foundation Models vs Engineered Terrain
+
+> A leakage-aware, spatially cross-validated benchmark of state-of-the-art
+> tabular and geospatial foundation models (**TabPFN v2**, **Prithvi-EO**,
+> **SatCLIP**) against engineered terrain covariates for predicting landslide
+> **recurrence** in an undermined Appalachian coalfield (6,129 mapped slides,
+> SW Pennsylvania).
 
 Predicts whether a slope location is a **recurring** slide (on/near a past
 failure) versus a **new** slide, from physical and geologic conditions.
-Trained on `landslides.csv` (6,129 mapped points, SW Pennsylvania).
+The headline finding: after removing definitional leakage and validating across
+space, off-the-shelf foundation models do **not** beat engineered terrain
+covariates, and the engineered coal-seam and terrain features remain the
+dominant predictors.
+
+## Highlights
+
+**Foundation models vs engineered covariates** (same points, same spatial folds)
+
+![Foundation models vs engineered terrain covariates](plots/geofm_comparison.png)
+
+**Honest performance, and the leakage demonstration** (reintroducing one
+inventory covariate drives AUC to a meaningless 1.000)
+
+<p>
+  <img src="plots/roc_pr_curves.png" width="49%" alt="ROC and precision-recall curves" />
+  <img src="plots/ablation_single_group.png" width="49%" alt="Standalone group power vs the leakage feature" />
+</p>
+
+**What drives reactivation** (SHAP, with SatCLIP in the model) and **calibrated probabilities**
+
+<p>
+  <img src="tabular_satclip_analysis/outputs/plots/shap_beeswarm_tabular.png" width="49%" alt="SHAP beeswarm of top tabular features" />
+  <img src="plots/calibration_before_after.png" width="49%" alt="Calibration before and after" />
+</p>
 
 ## Files
 | File | Purpose |
