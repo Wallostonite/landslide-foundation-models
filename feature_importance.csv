@@ -1,0 +1,20 @@
+,importance
+Dip of Upper Freeport Coal [degrees],1314
+Distance to underground mine [ft],1289
+Local relief [ft],1194
+Aspect of Upper Freeport Coal [az. degrees],1189
+Elevation above Upper Freeport Coal [ft],1162
+Distance to nearest stream [ft],1082
+Aspect [degrees],1013
+"Hillslope position (relative position, 0-1 range)",976
+Clay content [%],910
+Slope [degrees],887
+Distance to nearest road [ft],881
+Wetness index [ln(ft^2)],866
+Saturated hydraulic conductivity [micrometer/sec],862
+Erodibility factor [index],857
+Mean curvature [ft^-1],829
+Drainage area [ft^2],783
+Drainage class [index],754
+Elevation above  Pittsburgh Coal [ft],733
+Depth to underground mine [ft],419

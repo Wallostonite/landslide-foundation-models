@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this dataset or software, please cite it as below, and credit the data sources listed in DATA_LICENSE.md."
+title: "Leakage-aware, spatially cross-validated landslide-reactivation modeling with tabular and geospatial foundation models"
+abstract: >-
+  Code and compiled inventory for benchmarking engineered terrain covariates
+  against state-of-the-art foundation models (TabPFN v2, Prithvi-EO, SatCLIP)
+  for landslide reactivation in an undermined Appalachian coalfield, with
+  definitional-leakage removal, spatial block cross-validation, and probability
+  calibration. Software is released under MIT; the compiled dataset under
+  CC BY 4.0 (see DATA_LICENSE.md).
+type: software
+authors:
+  - family-names: "Ayo-Bali"
+    given-names: "Abiodun"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # add if available
+  # - family-names: "[Co-author family name]"
+  #   given-names: "[Co-author given name]"
+version: "1.0.0"
+date-released: "2026-11-25"
+license: MIT
+keywords:
+  - landslide reactivation
+  - foundation models
+  - spatial cross-validation
+  - data leakage
+  - probability calibration

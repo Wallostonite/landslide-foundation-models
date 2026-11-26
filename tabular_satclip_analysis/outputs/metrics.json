@@ -1,0 +1,17 @@
+{
+  "n_rows": 6129,
+  "n_tabular": 19,
+  "n_satclip": 256,
+  "roc_auc_tabular": 0.7935986205201612,
+  "roc_auc_tabular_std": 0.09336818039060567,
+  "roc_auc_combined": 0.8077674576666496,
+  "roc_auc_combined_std": 0.08335623879696233,
+  "pr_auc_combined": 0.8639526310924948,
+  "delta_auc": 0.014168837146488422,
+  "brier_raw": 0.15941486823722426,
+  "brier_calibrated": 0.13168860061072854,
+  "threshold": 0.3999999999999999,
+  "f1": 0.8690690056007608,
+  "balanced_accuracy": 0.6914102834441451,
+  "satclip_importance_share": 0.5171111111111111
+}

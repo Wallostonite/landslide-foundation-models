@@ -1,0 +1,21 @@
+,mean_abs_shap
+Elevation above  Pittsburgh Coal [ft],0.8948274871224456
+Local relief [ft],0.3651848087889989
+Elevation above Upper Freeport Coal [ft],0.21166188006886769
+"Hillslope position (relative position, 0-1 range)",0.17249097444005457
+Distance to nearest stream [ft],0.1607783595459793
+Distance to nearest road [ft],0.12862497999010394
+Erodibility factor [index],0.12738650203137136
+Distance to underground mine [ft],0.12364668811109261
+Clay content [%],0.11377610093541478
+Slope [degrees],0.10568058871045045
+Aspect [degrees],0.10020727370994316
+Drainage class [index],0.08913671651203253
+Dip of Upper Freeport Coal [degrees],0.08884298726708231
+Mean curvature [ft^-1],0.0873426298706418
+Depth to underground mine [ft],0.08029624942242451
+Wetness index [ln(ft^2)],0.07576848348949265
+Saturated hydraulic conductivity [micrometer/sec],0.07476154519579677
+Drainage area [ft^2],0.06274351745869959
+Aspect of Upper Freeport Coal [az. degrees],0.05605229521765585
+SatCLIP block (256 dims),4.508971509934111
